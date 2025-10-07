@@ -1,8 +1,24 @@
-#AI EMOTIONAL FRIEND 
+🤖AI EMOTIONAL FRIEND 
+
+TEAM 02 
+
+TEAM MEMBERS’ NAMES 
+
+OGUNJIMI ESTHER - Team lead 
+
+DANIEL AREMU 
+
+BLESSING EYIKA
+
+ABDULKADIR ISHAQ JIBRIEL
+
 PROBLEM - AI LACK OF EMOTION IN SOLVING PROBLEMS AND ANSWERING QUESTIONS. THE IDEA OF BEING OBJECTIVE. 
+
 This project is to bring about a new generation of Ai that is emotionally intelligent. 
 We believe there are different kinds of AI systems, many of which do not use emotional language when answering or solving questions. In this era, we need artificial intelligence that responds more like a human, giving emotional and subjective responses. We need AI that can relate to real-life situations.
+
   Because AI isn’t conscious or emotional, its “subjectivity” comes from how it is trained and prompted, not from real personal experience. However, if it is trained and equipped with an emotional database, it will be able to provide more personal and context-specific responses rather than only general knowledge. 
+  
   INTRODUCTION 
 EMOTIONAL ARTIFICIAL INTELLIGENCE     
   Emotional Artificial Intelligence refers to a branch of Artificial Intelligence that can recognize, interpret, and respond to human emotions. It combines the understanding of human feelings with machine learning, natural language processing, voice analysis, and other technologies.
@@ -27,11 +43,13 @@ EMOTIONAL ARTIFICIAL INTELLIGENCE
 
 SLIDE FOUR 
 OBJECTIVES 
+
   Our Emotional AI will be designed to understand and reflect human emotions, making its responses feel much closer to genuine human empathy. It will be able to detect when you’re 
 stressed, recognize when you’re feeling emotionally low, and provide caring, supportive responses tailored to your state of mind.
   Our Emotional AI will also be powered by Natural Language Processing (NLP). By combining NLP with emotional intelligence, we can create AI systems that act like empathetic friends, listening, understanding, and responding in ways that feel supportive and human-like.
 
-The Aspects of Emotional AI Friend 
+The Aspects of Emotional AI Friend
+
    Emotional AI will recognize users’ emotions through text and voice. With voice especially, the AI will be able to detect problems the user may be experiencing.
   The Emotional AI we envision should give truly empathetic responses. This is the main goal. It’s one thing to be sensitive, but it’s another to understand a person’s situation and still respond without real empathy. The responses from Emotional AI should feel as close as possible to what one might receive from their best friend. With this approach, even humans will begin to trust and confide in Emotional AI. Giving emotional replies shows not only an understanding of the situation or context but also a deep concern for the user’s feelings.
   Emotional AI should adapt to users’ wants and preferences and stop giving generalized or nonchalant responses. In today’s world, Emotional AI must be able to relate personally, knowing the name of its user or even mentioning the name especially when the user communicates openly with it. For example, using words like “Esther, I understand your pain, but can you please listen to me?” would capture a person’s attention fully.
@@ -58,6 +76,7 @@ The Aspects of Emotional AI Friend
 
 SLIDE FIVE 
 METHODOLOGY AND NLP APPROACH
+
  We are set to use Multilingual NLP using: 
 NLP Libraries: Hugging Face Transformers, spaCy, Tensor Flow, Gensim.
 - Frameworks: Rasa, Dialogflow for dialogue systems.
@@ -68,6 +87,7 @@ NLP Libraries: Hugging Face Transformers, spaCy, Tensor Flow, Gensim.
 
 SLIDE SIX
 DEVELOPING EMOTIONAL AI IN HAUSA
+
  Hausa Dataset (For Emotional Multilingual Chatbot)
 1. Alphabet (Hausa Ajami → Boko Script)
 Hausa uses the Latin (Boko) alphabet with additional special letters:
@@ -276,6 +296,7 @@ Emotional AI: Alhamdulillah. Keep trying, but don’t let worry consume you. Hol
 
 SLIDE SEVEN 
 DEVELOPING EMOTIONAL AI IN YORUBA LANGUAGE 
+
 Yoruba Dataset (For Emotional Multilingual Chatbot)
 
 Yoruba Natural Language in Emotional AI refers to training Emotional  AI systems to understand and respond empathetically in Yoruba, while capturing the emotions, culture, and nuances of the language.
@@ -634,9 +655,13 @@ Model Training: The MLP
 The MLP is the core classification model.
 ●TensorFlow or PyTorch: These are the deep learning frameworks you would use.
 1.Input Layer: Receives the averaged word embeddings (the combined feature vector for a whole sentence/document).
-2.Hidden Layers: One or more fully connected (dense) layers with non-linear activation functions (like ReLU). This is the "Multi-Layer" part of the MLP.
+
+2.Hidden Layers: One or more fully connected (dense) layers with non-linear activation functions (like ReLU).
+This is the "Multi-Layer" part of the MLP.
 3.Output Layer: A final dense layer with a Softmax activation function, which outputs a probability for each emotion class (e.g., 0.8 'joy', 0.1 'anger', 0.1 'sadness').
+
 ●scikit-learn: Can be used to run a simple, non-deep-learning baseline model (like a Support Vector Machine or Logistic Regression) using the same embeddings for comparison.
+
 Advanced Approach: Transfer Learning (Transformer Models)
 For better performance in these languages, you would likely move beyond a simple MLP and use more sophisticated architectures.
 ●Hugging Face: This is the best tool for this. The community hosts pre-trained Transformer models (like AfriBERTa or models specifically trained on West African languages).
@@ -654,7 +679,7 @@ Logo	Tool Name	Role in NLP/ML
 	Gensim	Essential for creating Word Embeddings (like FastText), which convert words into numerical vectors that the MLP can understand. This is especially useful for low-resource languages.
 	scikit-learn	Used for general ML tasks like data splitting, evaluation (calculating accuracy, F1-score), and running baseline models (like Logistic Regression) for comparison.
 ,	TensorFlow, PyTorch	The core Deep Learning frameworks used to define, train, and manage the MLP model architecture.
-	Hugging Face	Provides access to, and a framework for, using and fine-tuning powerful pre-trained Transformer models (like AfriBERTa), which are a superior alternative to a simple MLP for this complex task.
+	Hugging Face Provides access to, and a framework for, using and fine-tuning powerful pre-trained Transformer models (like AfriBERTa), which are a superior alternative to a simple MLP for this complex task.
 Building an Emotion Detection MLP for Yoruba, Igbo, and Hausa
 Building an MLP for emotion detection in these languages is a major challenge due to the scarcity of high-quality labeled data. However, the tools provide a clear path forward.
 1. Data and Feature Generation (Pre-MLP)
@@ -739,7 +764,9 @@ https://share.google/GZIfUqO328ahwrXtj
 https://share.google/hyBqBQwKdUjaTcHtE
 https://share.google/images/9RdmfaUjCLzHJykxu
 https://share.google/rX8NIvKkOs9SUBMr4
+
 NLP Libraries 
+
 Zindi 
 
 
